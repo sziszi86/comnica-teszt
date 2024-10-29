@@ -1,0 +1,6 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Diagonal Rounded Lines -->
+    <rect x="20" y="40" width="300" height="10" fill="#29a98b" opacity="0.1" rx="10" />
+    <rect x="40" y="70" width="300" height="10" fill="#29a98b" opacity="0.1" rx="10" />
+    <rect x="60" y="100" width="300" height="10" fill="#29a98b" opacity="0.1" rx="10" />
+</svg>

@@ -5,11 +5,14 @@ import WelcomeMessage from './WelcomeMessage';
 
 function App() {
     return (
-        <div className="app-container">
-            <MainContent />
-            <WelcomeMessage />
-        </div>
-    );
+        <>
+            <div className="app-container">
+                <MainContent/>
+                <WelcomeMessage/>
+            </div>
+        </>
+    )
+        ;
 }
 
 export default App;

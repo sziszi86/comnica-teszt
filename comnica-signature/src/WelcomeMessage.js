@@ -11,9 +11,11 @@ const WelcomeMessage = () => {
         <div className="right-section">
             <h1>Üdvözlöm a Comnica Signature-ben!</h1>
             <p>
-                A következőkben végigvezetjük dokumentumai elfogadásán és aláírásán. A folyamat több percet is igénybe vehet, ezért kérjük, csak akkor kezdje el, ha készen áll rá.
+                A következőkben végigvezetjük dokumentumai elfogadásán és aláírásán.
+                A folyamat több percet is igénybe vehet, ezért kérjük, csak akkor kezdje el, ha
+                készen áll rá.
             </p>
-            <Button onClick={handleClick}>KEZDHETJÜK</Button>
+            <Button onClick={handleClick}>Kezdhetjük</Button>
         </div>
     );
 };
