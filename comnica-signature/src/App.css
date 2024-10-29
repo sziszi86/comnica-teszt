@@ -1,0 +1,81 @@
+/* src/App.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-section {
+  background-color: #e0f2f1;
+  text-align: center;
+}
+
+.right-section {
+  background-color: #e8f5e9;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #31363c;
+  margin: 0;
+}
+
+h2 {
+  color: #682c5d;
+}
+
+p {
+  color: #186553;
+  margin: 20px 0;
+}
+
+.button {
+  background-color: #29a98b;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #20876f;
+}
+
+.illustration-placeholder {
+  width: 100%;
+  height: 200px;
+  background-color: #d3d3d3;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #31363c;
+}
